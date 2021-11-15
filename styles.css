@@ -13,8 +13,13 @@ body{
     padding: 10px;
     margin: 10px;
     background: red;
+    border: white;
 }
 hl{
     color: black;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
