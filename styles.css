@@ -1,25 +1,92 @@
-body{
-    background: green;
-    font-family:Arial, Helvetica, sans-serif;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.assignment{
-    display:flex;
-    padding: 10px;
-}
-
-.assignment img{
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    background: red;
-    border: white;
-}
-hl{
-    color: black;
+header {
+    background-color: red;
+    padding: 20px;
     text-align: center;
 }
 
-a {
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
     text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#Shad.jpg {
+    margin-right: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.homelogo {
+    display: inline-block;
+    width: 50%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
